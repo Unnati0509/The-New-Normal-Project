@@ -1,0 +1,211 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    
+    display: flex;
+    background-color: khaki;
+}
+#navigation{
+    
+list-style: none;
+display: flex;
+
+}
+#navigation a{
+    
+    color: black;
+    text-decoration:none;
+
+}
+#navigation a:hover{
+    
+    color: rgb(219, 19, 19);
+    text-decoration:none;
+
+}
+#navigation li{
+    margin-right: 15px;
+    padding: 4px;
+    color: black;
+    font-size: 1.5em;
+}
+/* #start img{
+    padding: 4px;
+    width: 35%;
+    height: 25em;
+    margin-top: 10px;
+}
+#start img:hover{
+   width: 30%;
+   height: 20em; */
+#para{
+    background-color: rgb(241, 239, 235);
+    text-align: center;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: -px;
+    border: 1px solid black;
+    
+    
+}
+#intro{
+    height: 252px;
+    width: 100%;
+    display: flex;
+    /* background-image: linear-gradient(rgb(211, 193, 193),rgb(180, 180, 18)); */
+   
+    justify-content: center;
+}
+#intro a{
+    text-decoration: none;
+    color:rgb(241, 226, 11);
+    font-size: 30px;
+    
+}
+#div1{
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 2px;
+    /* background-color: rgb(212, 190, 161); */
+    background-image: url('wfh\ sufferer.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    text-shadow:2px 2px 2px rgb(12, 7, 7);
+
+}
+#div2{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* background-color: rgb(212, 190, 161); */
+    text-align: center;
+    background-image: url('non-wfh.jpg');
+    background-position: center;
+    background-size: cover;
+    text-shadow:2px 2px 2px rgb(12, 7, 7);
+}
+#WFH{
+    height: 252px;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#dae2f8,#d6a4a4); 
+    /* border: 1px solid black; */
+   
+    justify-content: center;
+} 
+#WFH a{
+    text-decoration: none;
+}
+#wfh-heading{
+    text-align: center;
+    letter-spacing: 1px;
+
+}  
+.WFH1{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: brown;
+    margin-right: 10px;
+}
+#nonwfh-heading{
+    text-align: center;
+    letter-spacing: 1px;
+}
+#NON-WFH{
+    height: 252px;
+    width: 100%;
+    display: flex;
+    /* background-image: linear-gradient(rgb(211, 193, 193),rgb(180, 180, 18)); */
+    /* border: 1px solid black; */
+   
+    justify-content: center;
+    background-image: linear-gradient(
+        #efefbb, #d4d3dd );
+
+}
+#NON-WFH a{
+    text-decoration: none;
+}
+.NON-WFH1{
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(50, 182, 33);
+    margin-right: 10px;
+    list-style: inside;
+}
+#Frontline-workers{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    background-image: linear-gradient( #cc95c0, #dbd4b4, #7aa1d2 );
+    /* display: flex; */
+}
+/* #frontline{
+    /* display: flex; }
+    */
+    
+
+#workers-heading{
+    text-align: center;
+    font-size: 40px;
+}
+.workers-text {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    margin: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #a7aec2, #d7dde8);
+    
+}
+#frontlineworkers-img img{
+    position: absolute;
+    align-items: center;
+   background-position: center;
+   background-size:cover;
+   height: 250px;
+   left: 40%;
+
+}
+#Helpline{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+}
+#helpline-heading{
+    font-size: 35px;
+    text-align: center;
+
+}
+#helpline-text{
+    font-size: 20px;
+    text-align: center;
+}
+#HELPLINE{
+   position: relative;
+   left: 30%;
+   width: 180px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 25px;
+}
+footer div{
+    background-color: black;
+    text-align: center;
+}
